@@ -17,6 +17,12 @@ namespace TaskyAndroid.Screens {
 		EditText nameTextEdit;
 		Button saveButton;
 		CheckBox doneCheckbox;
+		Styling customStyling;
+
+		public TaskDetailsScreen()
+		{
+			customStyling = new Styling();
+		}
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -32,7 +38,10 @@ namespace TaskyAndroid.Screens {
 			nameTextEdit = FindViewById<EditText>(Resource.Id.NameText);
 			notesTextEdit = FindViewById<EditText>(Resource.Id.NotesText);
 			saveButton = FindViewById<Button>(Resource.Id.SaveButton);
-			
+
+			// set bg colours
+			customStyling.SetBackground(Window);
+
 			// find all our controls
 			cancelDeleteButton = FindViewById<Button>(Resource.Id.CancelDeleteButton);
 			

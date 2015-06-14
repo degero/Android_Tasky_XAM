@@ -5,6 +5,8 @@ using Android.OS;
 using Android.Widget;
 using Tasky.Core;
 using TaskyAndroid;
+using Android.Views;
+using Android.Graphics;
 
 namespace TaskyAndroid.Screens {
 	/// <summary>
@@ -16,13 +18,21 @@ namespace TaskyAndroid.Screens {
 		IList<Task> tasks;
 		Button addTaskButton;
 		ListView taskListView;
-		
+		Styling customStyling;
+
+		public HomeScreen()
+		{
+			customStyling = new Styling();
+		}
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
 			// set our layout to be the home screen
 			SetContentView(Resource.Layout.HomeScreen);
+			// set bg colour
+			customStyling.SetBackground(Window);
 
 			//Find our controls
 			taskListView = FindViewById<ListView> (Resource.Id.TaskList);
@@ -57,5 +67,7 @@ namespace TaskyAndroid.Screens {
 			//Hook up our adapter to our ListView
 			taskListView.Adapter = taskList;
 		}
+
+	
 	}
 }
