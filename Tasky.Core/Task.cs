@@ -3,7 +3,7 @@ using System;
 namespace Tasky.Core {
 	/// <summary>
 	/// Task business object
-	/// </summary>
+ with some extra comments	/// </summary>
 	public class Task {
 		public Task ()
 		{
