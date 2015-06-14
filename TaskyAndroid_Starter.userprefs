@@ -1,0 +1,38 @@
+﻿<Properties StartupItem="TaskyAndroid\TaskyAndroid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.MonoForAndroid_API_10" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskyAndroid\Screens\TaskDetailsScreen.cs">
+    <Files>
+      <File FileName="TaskyAndroid\Screens\HomeScreen.cs" Line="25" Column="25" />
+      <File FileName="TaskyAndroid\Screens\TaskDetailsScreen.cs" Line="38" Column="38" />
+      <File FileName="Tasky.Core\Task.cs" Line="4" Column="4" />
+      <File FileName="TaskyAndroid\Adapters\TaskListAdapter.cs" Line="62" Column="62" />
+      <File FileName="TaskyAndroid\Screens\Common\Styling.cs" Line="3" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Tasky.Core.Android" expanded="True" />
+          <Node name="TaskyAndroid" expanded="True">
+            <Node name="Adapters" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="drawable-hdpi" expanded="True" />
+              <Node name="drawable-ldpi" expanded="True" />
+              <Node name="drawable-mdpi" expanded="True" />
+              <Node name="drawable-xhdpi" expanded="True" />
+              <Node name="layout" expanded="True" />
+            </Node>
+            <Node name="Screens" expanded="True">
+              <Node name="Common" expanded="True" />
+              <Node name="TaskDetailsScreen.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TaskyAndroid MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
